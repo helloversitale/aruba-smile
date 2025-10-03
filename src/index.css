@@ -17,33 +17,33 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 20% 15%;
 
-    /* Professional dental blue - trust and calm (softer) */
-    --primary: 210 70% 48%;
+    /* Professional dental blue - ultra soft and calming */
+    --primary: 210 50% 55%;
     --primary-foreground: 0 0% 100%;
     
-    /* Light blue accent */
-    --secondary: 210 60% 96%;
-    --secondary-foreground: 210 70% 40%;
+    /* Light blue accent - barely visible */
+    --secondary: 210 40% 97%;
+    --secondary-foreground: 210 50% 45%;
 
-    --muted: 210 30% 96%;
+    --muted: 210 20% 97%;
     --muted-foreground: 210 15% 50%;
 
-    --accent: 210 60% 92%;
-    --accent-foreground: 210 70% 40%;
+    --accent: 210 40% 94%;
+    --accent-foreground: 210 50% 45%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 25% 90%;
-    --input: 210 25% 90%;
-    --ring: 210 70% 48%;
+    --border: 210 15% 90%;
+    --input: 210 15% 90%;
+    --ring: 210 50% 55%;
 
     --radius: 0.75rem;
     
-    /* Dental-specific tokens - softer blues */
-    --hero-gradient: linear-gradient(135deg, hsl(210 70% 48% / 0.85), hsl(210 60% 35% / 0.8));
-    --card-shadow: 0 4px 20px hsl(210 50% 50% / 0.06);
-    --hover-shadow: 0 8px 30px hsl(210 50% 50% / 0.12);
+    /* Dental-specific tokens - ultra soft blues */
+    --hero-gradient: linear-gradient(135deg, hsl(210 50% 55% / 0.65), hsl(210 50% 45% / 0.60));
+    --card-shadow: 0 4px 20px hsl(210 30% 50% / 0.04);
+    --hover-shadow: 0 8px 30px hsl(210 30% 50% / 0.08);
 
     --sidebar-background: 0 0% 98%;
 
@@ -72,26 +72,26 @@ All colors MUST be HSL.
     --popover: 210 25% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 210 70% 52%;
+    --primary: 210 50% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 25% 18%;
+    --secondary: 210 20% 18%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 25% 18%;
+    --muted: 210 20% 18%;
     --muted-foreground: 210 15% 65%;
 
-    --accent: 210 25% 20%;
+    --accent: 210 20% 20%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 25% 20%;
-    --input: 210 25% 20%;
-    --ring: 210 70% 52%;
+    --border: 210 20% 20%;
+    --input: 210 20% 20%;
+    --ring: 210 50% 60%;
     
-    --hero-gradient: linear-gradient(135deg, hsl(210 70% 40% / 0.85), hsl(210 60% 25% / 0.8));
+    --hero-gradient: linear-gradient(135deg, hsl(210 50% 45% / 0.70), hsl(210 50% 35% / 0.65));
     --card-shadow: 0 4px 20px hsl(0 0% 0% / 0.3);
     --hover-shadow: 0 8px 30px hsl(0 0% 0% / 0.4);
   }
