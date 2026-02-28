@@ -2,98 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 210 20% 15%;
+    --foreground: 220 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 20% 15%;
+    --card-foreground: 220 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 20% 15%;
+    --popover-foreground: 220 25% 15%;
 
-    /* Professional dental blue - ultra soft and calming */
-    --primary: 210 50% 55%;
+    --primary: 190 100% 42%;
     --primary-foreground: 0 0% 100%;
-    
-    /* Light blue accent - barely visible */
-    --secondary: 210 40% 97%;
-    --secondary-foreground: 210 50% 45%;
 
-    --muted: 210 20% 97%;
-    --muted-foreground: 210 15% 50%;
+    --secondary: 190 60% 96%;
+    --secondary-foreground: 190 80% 35%;
 
-    --accent: 210 40% 94%;
-    --accent-foreground: 210 50% 45%;
+    --muted: 200 20% 97%;
+    --muted-foreground: 220 10% 50%;
+
+    --accent: 190 50% 94%;
+    --accent-foreground: 190 80% 35%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 210 15% 90%;
     --input: 210 15% 90%;
-    --ring: 210 50% 55%;
+    --ring: 190 100% 42%;
 
-    --radius: 0.75rem;
-    
-    /* Dental-specific tokens - ultra soft blues */
-    --hero-gradient: linear-gradient(135deg, hsl(210 50% 55% / 0.65), hsl(210 50% 45% / 0.60));
-    --card-shadow: 0 4px 20px hsl(210 30% 50% / 0.04);
-    --hover-shadow: 0 8px 30px hsl(210 30% 50% / 0.08);
+    --radius: 0.5rem;
+
+    --dental-dark: 225 50% 20%;
+    --dental-cyan: 190 100% 42%;
+    --dental-cyan-light: 190 100% 50%;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
-    --background: 210 25% 10%;
-    --foreground: 0 0% 98%;
-
-    --card: 210 25% 12%;
-    --card-foreground: 0 0% 98%;
-
-    --popover: 210 25% 12%;
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 210 50% 60%;
-    --primary-foreground: 0 0% 100%;
-
-    --secondary: 210 20% 18%;
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 210 20% 18%;
-    --muted-foreground: 210 15% 65%;
-
-    --accent: 210 20% 20%;
-    --accent-foreground: 0 0% 98%;
-
-    --destructive: 0 62.8% 50%;
-    --destructive-foreground: 0 0% 100%;
-
-    --border: 210 20% 20%;
-    --input: 210 20% 20%;
-    --ring: 210 50% 60%;
-    
-    --hero-gradient: linear-gradient(135deg, hsl(210 50% 45% / 0.70), hsl(210 50% 35% / 0.65));
-    --card-shadow: 0 4px 20px hsl(0 0% 0% / 0.3);
-    --hover-shadow: 0 8px 30px hsl(0 0% 0% / 0.4);
   }
 }
 
@@ -104,23 +56,28 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
 }
 
 @layer utilities {
-  .hero-gradient {
-    background: var(--hero-gradient);
+  .text-dental-dark {
+    color: hsl(var(--dental-dark));
   }
-  
-  .card-shadow {
-    box-shadow: var(--card-shadow);
+
+  .text-dental-cyan {
+    color: hsl(var(--dental-cyan));
   }
-  
-  .hover-shadow {
-    box-shadow: var(--hover-shadow);
+
+  .bg-dental-cyan {
+    background-color: hsl(var(--dental-cyan));
+  }
+
+  .bg-dental-cyan-light {
+    background-color: hsl(var(--dental-cyan-light));
   }
 }

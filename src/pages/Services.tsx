@@ -93,7 +93,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen pt-16 lg:pt-20">
       {/* Hero Section */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
@@ -126,7 +126,7 @@ const Services = () => {
               What Makes Us Different
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-background p-6 rounded-lg card-shadow">
+              <div className="bg-background p-6 rounded-lg shadow-sm">
                 <Sparkles className="w-10 h-10 text-primary mb-4" />
                 <h3 className="font-semibold text-xl mb-3">State-of-the-Art Technology</h3>
                 <p className="text-muted-foreground">
@@ -134,7 +134,7 @@ const Services = () => {
                   and laser dentistry for precise, comfortable treatments.
                 </p>
               </div>
-              <div className="bg-background p-6 rounded-lg card-shadow">
+              <div className="bg-background p-6 rounded-lg shadow-sm">
                 <Heart className="w-10 h-10 text-primary mb-4" />
                 <h3 className="font-semibold text-xl mb-3">Patient-Centered Care</h3>
                 <p className="text-muted-foreground">
@@ -142,7 +142,7 @@ const Services = () => {
                   create personalized treatment plans.
                 </p>
               </div>
-              <div className="bg-background p-6 rounded-lg card-shadow">
+              <div className="bg-background p-6 rounded-lg shadow-sm">
                 <Shield className="w-10 h-10 text-primary mb-4" />
                 <h3 className="font-semibold text-xl mb-3">Insurance & Payment Plans</h3>
                 <p className="text-muted-foreground">
@@ -150,7 +150,7 @@ const Services = () => {
                   quality dental care accessible.
                 </p>
               </div>
-              <div className="bg-background p-6 rounded-lg card-shadow">
+              <div className="bg-background p-6 rounded-lg shadow-sm">
                 <Zap className="w-10 h-10 text-primary mb-4" />
                 <h3 className="font-semibold text-xl mb-3">Same-Day Appointments</h3>
                 <p className="text-muted-foreground">

@@ -39,11 +39,11 @@ const Contact = () => {
 
   const whatsappNumber = "2975821234";
   const whatsappMessage = encodeURIComponent(
-    "Hello! I'd like to schedule an appointment at Aruba Dental Clinic."
+    "Hello! I'd like to schedule an appointment at Dental Clinic."
   );
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen pt-16 lg:pt-20">
       {/* Hero Section */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
@@ -146,7 +146,7 @@ const Contact = () => {
               <div className="space-y-4">
                 <a
                   href="tel:+2975821234"
-                  className="flex items-start gap-4 p-6 bg-accent rounded-lg hover:shadow-lg transition-all hover:-translate-y-1 card-shadow"
+                  className="flex items-start gap-4 p-6 bg-accent rounded-lg hover:shadow-lg transition-all hover:-translate-y-1 shadow-sm"
                 >
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                     <Phone className="w-6 h-6 text-primary-foreground" />
@@ -162,7 +162,7 @@ const Contact = () => {
                   href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-4 p-6 bg-accent rounded-lg hover:shadow-lg transition-all hover:-translate-y-1 card-shadow"
+                  className="flex items-start gap-4 p-6 bg-accent rounded-lg hover:shadow-lg transition-all hover:-translate-y-1 shadow-sm"
                 >
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                     <MessageCircle className="w-6 h-6 text-primary-foreground" />
@@ -176,7 +176,7 @@ const Contact = () => {
 
                 <a
                   href="mailto:info@arubadental.com"
-                  className="flex items-start gap-4 p-6 bg-accent rounded-lg hover:shadow-lg transition-all hover:-translate-y-1 card-shadow"
+                  className="flex items-start gap-4 p-6 bg-accent rounded-lg hover:shadow-lg transition-all hover:-translate-y-1 shadow-sm"
                 >
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                     <Mail className="w-6 h-6 text-primary-foreground" />
@@ -188,7 +188,7 @@ const Contact = () => {
                   </div>
                 </a>
 
-                <div className="flex items-start gap-4 p-6 bg-accent rounded-lg card-shadow">
+                <div className="flex items-start gap-4 p-6 bg-accent rounded-lg shadow-sm">
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-primary-foreground" />
                   </div>
@@ -201,7 +201,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4 p-6 bg-accent rounded-lg card-shadow">
+                <div className="flex items-start gap-4 p-6 bg-accent rounded-lg shadow-sm">
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                     <Clock className="w-6 h-6 text-primary-foreground" />
                   </div>
@@ -234,7 +234,7 @@ const Contact = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Aruba Dental Clinic Location"
+                title="Dental Clinic Location"
               ></iframe>
             </div>
           </div>

@@ -3,12 +3,11 @@ import dentistPortrait from "@/assets/dentist-portrait.jpg";
 
 const About = () => {
   return (
-    <div className="min-h-screen pt-20">
-      {/* Hero Section */}
-      <section className="py-20 bg-muted">
+    <div className="min-h-screen pt-16 lg:pt-20">
+      <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-6 text-foreground">About Aruba Dental Clinic</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[hsl(225,50%,20%)]">About Dental Clinic</h1>
             <p className="text-xl text-muted-foreground">
               Committed to excellence in dental care since 2008. Your smile is our passion.
             </p>
@@ -22,7 +21,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-center text-foreground">Our Story</h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Founded in 2008, Aruba Dental Clinic has been serving the community with exceptional 
+              Founded in 2008, Dental Clinic has been serving the community with exceptional 
               dental care for over 15 years. What started as a small practice has grown into one 
               of Aruba's most trusted dental clinics, thanks to our commitment to patient care 
               and clinical excellence.
@@ -154,22 +153,22 @@ const About = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8 text-foreground">Certifications & Memberships</h2>
             <div className="grid md:grid-cols-2 gap-6 text-left">
-              <div className="bg-background p-6 rounded-lg card-shadow">
+              <div className="bg-background p-6 rounded-lg shadow-sm">
                 <Award className="w-8 h-8 text-primary mb-3" />
                 <h3 className="font-semibold mb-2">American Dental Association</h3>
                 <p className="text-muted-foreground text-sm">Member since 2008</p>
               </div>
-              <div className="bg-background p-6 rounded-lg card-shadow">
+              <div className="bg-background p-6 rounded-lg shadow-sm">
                 <Award className="w-8 h-8 text-primary mb-3" />
                 <h3 className="font-semibold mb-2">International Congress of Oral Implantologists</h3>
                 <p className="text-muted-foreground text-sm">Certified member</p>
               </div>
-              <div className="bg-background p-6 rounded-lg card-shadow">
+              <div className="bg-background p-6 rounded-lg shadow-sm">
                 <Award className="w-8 h-8 text-primary mb-3" />
                 <h3 className="font-semibold mb-2">Academy of General Dentistry</h3>
                 <p className="text-muted-foreground text-sm">Fellow member</p>
               </div>
-              <div className="bg-background p-6 rounded-lg card-shadow">
+              <div className="bg-background p-6 rounded-lg shadow-sm">
                 <Award className="w-8 h-8 text-primary mb-3" />
                 <h3 className="font-semibold mb-2">Caribbean Dental Association</h3>
                 <p className="text-muted-foreground text-sm">Board certified</p>

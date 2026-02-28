@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
+import SocialSidebar from "./SocialSidebar";
 
 interface LayoutProps {
   children: ReactNode;
@@ -10,6 +11,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation />
+      <SocialSidebar />
       <main className="flex-grow">{children}</main>
       <Footer />
     </div>

@@ -71,14 +71,14 @@ const Testimonials = () => {
   const totalReviews = testimonials.length;
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen pt-16 lg:pt-20">
       {/* Hero Section */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6 text-foreground">Patient Testimonials</h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Read what our patients have to say about their experiences at Aruba Dental Clinic
+              Read what our patients have to say about their experiences at Dental Clinic
             </p>
             <div className="flex items-center justify-center gap-4 flex-wrap">
               <div className="flex items-center gap-2">
@@ -114,15 +114,15 @@ const Testimonials = () => {
               Trusted by Thousands
             </h2>
             <div className="grid md:grid-cols-3 gap-8 text-center">
-              <div className="bg-background p-8 rounded-lg card-shadow">
+              <div className="bg-background p-8 rounded-lg shadow-sm">
                 <div className="text-5xl font-bold text-primary mb-2">5000+</div>
                 <div className="text-muted-foreground">Happy Patients</div>
               </div>
-              <div className="bg-background p-8 rounded-lg card-shadow">
+              <div className="bg-background p-8 rounded-lg shadow-sm">
                 <div className="text-5xl font-bold text-primary mb-2">98%</div>
                 <div className="text-muted-foreground">Satisfaction Rate</div>
               </div>
-              <div className="bg-background p-8 rounded-lg card-shadow">
+              <div className="bg-background p-8 rounded-lg shadow-sm">
                 <div className="text-5xl font-bold text-primary mb-2">15+</div>
                 <div className="text-muted-foreground">Years of Excellence</div>
               </div>

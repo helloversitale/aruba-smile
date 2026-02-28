@@ -39,6 +39,8 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        "dental-dark": "hsl(var(--dental-dark))",
+        "dental-cyan": "hsl(var(--dental-cyan))",
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
